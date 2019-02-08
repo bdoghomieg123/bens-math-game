@@ -1,6 +1,6 @@
 #bens-math-game
 
-Welcome to Ben's Math Program V1.0.1!
+Welcome to Ben's Math Program V1.0.2!
 
 Currently, there are two Basic levels of addition and multiplication. Subtraction is coming in version 1.4 at the earliest.
 
