@@ -18,4 +18,4 @@ Linux:
 - Right click in directory that you copied file over to.
 - Click "Open in terminal"
 - Once Terminal opens, Type "Python3 bens-math.py"
-- Enjoy!
+- Enjoy!!
