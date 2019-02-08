@@ -49,6 +49,7 @@ for x in range(10):
     number2 = random.choice(numbers)
     question = number1 * number2
 
+    
     print('What is', number1, 'x', number2, '?')
     answer = input('\n')
     if answer == "":
