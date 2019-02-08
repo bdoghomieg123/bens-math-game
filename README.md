@@ -2,7 +2,7 @@
 
 Welcome to Ben's Math Program V1.0.1!
 
-Currently, there are two Basic levels of addition and multiplication. Subtraction is coming in version 1.2.
+Currently, there are two Basic levels of addition and multiplication. Subtraction is coming in version 1.4 at the earliest.
 
 Algebra concepts expected to come in V2.0.
 
