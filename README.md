@@ -1,10 +1,10 @@
 #bens-math-game
 
-Welcome to Ben's Math Program V1.4.0!
+Welcome to Ben's Math Program v1.4.0!
 
 Currently, there are three levels: Addition, Multiplication, and subtraction.
 
-Algebra concepts expected to come in V2.0.
+Algebra concepts expected to come in v2.0.
 
 
 To use program:
@@ -17,7 +17,7 @@ Windows:
 - Enjoy!
 
 Linux:
-- Make sure that you have Python3 installed. Program will not work as intended in Python2 due to formatting and package discrepencies
+- Make sure that you have Python3 installed. Program will not work as intended in Python2 due to formatting and package discrepancies
 - Right click in directory that you copied file over to.
 - Click "Open in terminal"
 - Once Terminal opens, Type "Python3 bens-math.py"
