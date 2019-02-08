@@ -13,7 +13,7 @@ def clear():
 print('Program only tested in Python3. Running in Python2 is not recommended')
 input('\nPress ENTER key to acknowledge and continue...')
 clear()
-print("Welcome to Ben's Math program V1.4 There are currently 2 levels. Addition and Multiplication. More to come soon!")
+print("Welcome to Ben's Math program V1.0.2 There are currently 2 levels. Addition and Multiplication. More to come soon!")
 input('\nPress ENTER key to and continue...')
 clear()
 print("Level 1: Addition")
