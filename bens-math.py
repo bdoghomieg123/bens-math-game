@@ -13,7 +13,7 @@ def clear():
 print('Program only tested in Python3. Running in Python2 is not recommended')
 input('\nPress ENTER key to acknowledge and continue...')
 clear()
-print("Welcome to Ben's Math program V1.0.1 There are currently 2 levels. Addition and Multiplication. More to come soon!")
+print("Welcome to Ben's Math program V1.4 There are currently 2 levels. Addition and Multiplication. More to come soon!")
 input('\nPress ENTER key to and continue...')
 clear()
 print("Level 1: Addition")
@@ -40,16 +40,18 @@ for x in range(10):
         score += 0
     time.sleep(1)
     clear()
-score = 0
 print('Your addition score is:',score,'/ 10')
 input('Press ENTER key to advance to level 2...')
+clear()
+score = 0
 print('Level 2: Multiplication')
+time.sleep(1)
 for x in range(10):
     number1 = random.choice(numbers)
     number2 = random.choice(numbers)
     question = number1 * number2
 
-    
+
     print('What is', number1, 'x', number2, '?')
     answer = input('\n')
     if answer == "":
@@ -64,3 +66,4 @@ for x in range(10):
     time.sleep(1)
     clear()
 print('Your Multiplication score is:', score, '/10')
+input('\nPress ENTER key to continue to level 3...')
