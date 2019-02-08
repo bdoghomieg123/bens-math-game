@@ -3,6 +3,7 @@ import random
 import os
 import platform
 
+#Clears output to make it easier to read
 def clear():
     if platform.system() == "Linux":
         os.system('clear')
@@ -16,7 +17,7 @@ print("Welcome to Ben's Math program. There are currently 2 levels. Addition and
 input('\nPress ENTER key to and continue...')
 clear()
 print("Level 1: Addition")
-time.sleep(2)
+time.sleep(1)
 clear()
 numbers = [1,2,3,4,5,6,7,8,9,10]
 score = 0
