@@ -1,10 +1,14 @@
 #bens-math-game
 
-Welcome to Ben's Math Program v1.4.0!
+Welcome to Ben's Math Program v2.0!
 
-Currently, there are three levels: Addition, Multiplication, and subtraction.
+Currently, all the basic operations (Addition, Subtraction Multiplication, and division are included).
+
+The division section sometimes is slightly broken. That is to be fixed in next update.
 
 Algebra concepts expected to come in v2.0.
+
+If you notice any bugs/issues, fill out an issue report.
 
 
 To use program:
