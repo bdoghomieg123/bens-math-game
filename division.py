@@ -10,7 +10,6 @@ def clear():
         os.system('cls')
 
 numbers = list(range(1,100))
-
 def division():
     print('Level 4: Division')
     print('\nIn this section, round your answer to the first decimal place')

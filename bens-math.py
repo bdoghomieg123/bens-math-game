@@ -61,6 +61,7 @@ def arithmetic(type, title, numQuestions):
     clear()
     score = 0
 
+
 #modifies the level names and number of Questions
 arithmetic('addition', 'Level 1: Addition', 10)
 arithmetic('subtraction', 'Level 2: Subtraction', 10)
