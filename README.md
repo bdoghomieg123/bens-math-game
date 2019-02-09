@@ -2,7 +2,7 @@
 
 Welcome to Ben's Math Program v2.8!
 
-Currently, all the basic operations (Addition, Subtraction Multiplication, and division are included).
+Currently, all the basic operations (Addition, Subtraction, Multiplication, and division are included).
 
 The division section sometimes is slightly broken. That is to be fixed in next update.
 
