@@ -17,7 +17,7 @@ def division():
     time.sleep(3)
     clear()
     score = 0
-    for x in range(1):
+    for x in range(10):
         number1 = random.choice(numbers)
         number2 = random.choice(numbers)
         if number1 < number2:

@@ -62,9 +62,9 @@ def arithmetic(type, title, numQuestions):
     score = 0
 
 #modifies the level names and number of Questions
-arithmetic('addition', 'Level 1: Addition', 1)
-arithmetic('subtraction', 'Level 2: Subtraction', 1)
-arithmetic('multiplication', 'Level 3: Multiplication', 1)
+arithmetic('addition', 'Level 1: Addition', 10)
+arithmetic('subtraction', 'Level 2: Subtraction', 10)
+arithmetic('multiplication', 'Level 3: Multiplication', 10)
 
 division()
 time.sleep(1)

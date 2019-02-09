@@ -6,7 +6,7 @@ Currently, all the basic operations (Addition, Subtraction Multiplication, and d
 
 The division section sometimes is slightly broken. That is to be fixed in next update.
 
-Algebra concepts expected to come in v2.0.
+Algebra concepts expected to come in v5.0.
 
 If you notice any bugs/issues, fill out an issue report.
 
