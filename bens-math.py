@@ -2,6 +2,7 @@ import time
 import random
 import os
 import platform
+from division import *
 
 #Clears output to make it easier to read
 def clear():
@@ -11,119 +12,60 @@ def clear():
         os.system('cls')
 numbers = list(range(1,100))
 
-"""Main Menu"""
-input('\nPress ENTER key to acknowledge and continue...')
+#Main Menu
 print('Program only tested in Python3. Stability in Python2 is not guaranteed')
+input('\nPress ENTER key to acknowledge and continue...')
 clear()
-print("Welcome to Ben's Math program v2.0!")
+print("Welcome to Ben's Math program v5.0!")
 input('\nPress ENTER key to and continue...')
 clear()
 
-#Addition Level
-print("Level 1: Addition")
-time.sleep(1)
-clear()
-score = 0
-for x in range(10):
-    number1 = random.choice(numbers)
-    number2 = random.choice(numbers)
-    question = number1 + number2
-    print('What is', number1, '+', number2, '?')
-    answer = input('\n')
-    if answer == "":
-        print('Invalid input detected...')
-        exit(12)
-    elif question == int(answer):
-        time.sleep(1)
-        score += 1
-    else:
-        score += 0
-    time.sleep(1.5)
+def arithmetic(type, title, numQuestions):
+    print(title)
+    time.sleep(1)
     clear()
-print('Your addition score is:',score,'/ 10')
-input('Press ENTER key to advance to level 2...')
-clear()
-score = 0
-
-#Subtration level
-print("Level 2: Subtraction")
-time.sleep(1)
-clear()
-def subtraction():
     score = 0
-    for x in range(10):
+    for x in range(numQuestions):
         number1 = random.choice(numbers)
         number2 = random.choice(numbers)
-        question = number1 - number2
-        print('What is', number1, '-', number2, '?')
+
+        solution = 0;
+        if type == "addition" :
+            print('What is', number1, '+', number2, '?')
+            solution = number1 + number2;
+        elif type == "subtraction" :
+            if number1 < number2:
+                switch = number2
+                number1 = number2
+                number2 = switch
+            print('What is', number1, '-', number2, '?')
+            solution = number1 - number2;
+        elif type == "multiplication" :
+            print('What is', number1, 'x', number2, '?')
+            solution = number1 * number2;
+
         answer = input('\n')
         if answer == "":
             print('Invalid input detected...')
             exit(12)
-        elif question == int(answer):
+        elif solution == int(answer):
             time.sleep(1)
             score += 1
-
         else:
             score += 0
-        time.sleep(1)
+        time.sleep(1.5)
         clear()
 
-    print('Your subtraction score is:',score,'/ 10')
-    input('Press ENTER key to advance to level 3...')
-subtraction()
-clear()
-
-
-#Multiplication Level
-print('Level 3: Multiplication')
-time.sleep(2)
-clear()
-for x in range(10):
-    number1 = random.choice(numbers)
-    number2 = random.choice(numbers)
-    question = number1 * number2
-    print('What is', number1, 'x', number2, '?')
-    answer = input('\n')
-    if answer == "":
-        print('Invalid input detected...')
-        exit(12)
-
-    elif question == int(answer):
-        time.sleep(1)
-        score += 1
-    else:
-        score += 0
-    time.sleep(2)
-    clear()
-print('Your Multiplication score is:', score, '/ 10')
-input('\nPress ENTER key to continue to level 4...')
-clear()
-score = 0
-def division():
-    print('Level 4: Division')
-    print('\nIn this section, round your answer to the first decimal place')
-    time.sleep(3)
+    print('Your score is:', score,'/',numQuestions)
+    input('Press ENTER key to advance to next level...')
     clear()
     score = 0
-    for x in range(10):
-        number1 = random.choice(numbers)
-        number2 = random.choice(numbers)
-        if number1 < number2:
-            division()
-        else:
-            question = round(number1 / number2, 1)
-            print('What is', number1, 'divided by', number2, '?')
-            answer = input('\n')
-            if answer == "":
-                print('Invalid input detected...')
-                exit(12)
-            elif question == float(answer):
-                time.sleep(1)
-                score += 1
-            else:
-                score += 0
-            print('Your Division score is:', score, '/ 10')
 
+#modifies the level names and number of Questions
+arithmetic('addition', 'Level 1: Addition', 1)
+arithmetic('subtraction', 'Level 2: Subtraction', 1)
+arithmetic('multiplication', 'Level 3: Multiplication', 1)
 
 division()
+time.sleep(1)
+clear()
