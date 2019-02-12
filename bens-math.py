@@ -3,14 +3,7 @@ import random
 import os
 import platform
 from division import *
-
-#Clears output to make it easier to read
-def clear():
-    if platform.system() == "Linux":
-        os.system('clear')
-    elif platform.system() == "Windows":
-        os.system('cls')
-numbers = list(range(1,100))
+from common import *
 
 #Main Menu
 print('Program only tested in Python3. Stability in Python2 is not guaranteed')
