@@ -6,6 +6,10 @@ from common import *
 import numpy as np
 import matplotlib.pyplot as plt
 
+
+
+
+#this is broken. Don't try to use it unless you wanna fix it
 numbers = list(range(1,100))
 def functions():
     print('Level 5: Functions Practice')
