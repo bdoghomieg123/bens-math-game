@@ -9,7 +9,7 @@ from common import *
 print('Program only tested in Python3. Stability in Python2 is not guaranteed')
 input('\nPress ENTER key to acknowledge and continue...')
 clear()
-print("Welcome to Ben's Math program v5.0!")
+print("Welcome to Ben's Math program v2.8!")
 input('\nPress ENTER key to and continue...')
 clear()
 
