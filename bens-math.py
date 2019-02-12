@@ -1,5 +1,5 @@
 import time
-import random
+import random as rando
 import os
 import platform
 from division import *
@@ -20,8 +20,8 @@ def arithmetic(type, title, numQuestions):
     clear()
     score = 0
     for x in range(numQuestions):
-        number1 = random.choice(numbers)
-        number2 = random.choice(numbers)
+        number1 = rando.choice(numbers)
+        number2 = rando.choice(numbers)
 
         solution = 0;
         if type == "addition" :
