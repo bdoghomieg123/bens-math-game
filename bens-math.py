@@ -14,6 +14,7 @@ print("Welcome to Ben's Math program v2.8!")
 input('\nPress ENTER key to and continue...')
 clear()
 
+
 def arithmetic(type, title, numQuestions):
     print(title)
     time.sleep(1)
