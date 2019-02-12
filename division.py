@@ -13,7 +13,7 @@ numbers = list(range(1,100))
 def division():
     print('Level 4: Division')
     print('\nIn this section, round your answer to the first decimal place')
-    time.sleep(1)
+    time.sleep(3)
     clear()
     score = 0
     for x in range(1):
@@ -35,4 +35,3 @@ def division():
                 score += 0
             clear()
     print('Your Division score is:', score, '/ 10')
-    exit(32)

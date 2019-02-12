@@ -4,12 +4,13 @@ import os
 import platform
 from division import *
 from common import *
+from algebra import *
 
 #Main Menu
 print('Program only tested in Python3. Stability in Python2 is not guaranteed')
 input('\nPress ENTER key to acknowledge and continue...')
 clear()
-print("Welcome to Ben's Math program v2.8!")
+print("Welcome to Ben's Math program v2.8.2!")
 #hacker voice: "I'm in bois"
 input('\nPress ENTER key to and continue...')
 clear()
@@ -39,6 +40,7 @@ def arithmetic(type, title, numQuestions):
             print('What is', number1, 'x', number2, '?')
             solution = number1 * number2;
 
+
         answer = input('\n')
         if answer == "":
             print('Invalid input detected...')
@@ -60,7 +62,14 @@ def arithmetic(type, title, numQuestions):
 arithmetic('addition', 'Level 1: Addition', 1)
 arithmetic('subtraction', 'Level 2: Subtraction', 1)
 arithmetic('multiplication', 'Level 3: Multiplication', 1)
-
 division()
+troll('x**3+2*x-4', range(-10, 11))
+
+
+
+
+
+
+
 time.sleep(1)
 clear()
