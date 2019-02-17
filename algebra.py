@@ -31,7 +31,7 @@ def troll(formula, x_range):
     time.sleep(2)
     print("Haha just joking. I don't know Alegebra\n")
     print("enjoy this graph until i figure it out for myself")
-    time.sleep(5)
+    time.sleep(2)
     x = np.array(x_range)
     y = eval(formula)
     plt.plot(x, y)
