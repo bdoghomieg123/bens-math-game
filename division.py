@@ -34,7 +34,7 @@ def math(type, title, numQuestions):
         time.sleep(1.5)
         clear()
         print('Your division score is:', score,'/',numQuestions)
-        input("Press ENTER to advance to next level...")
+        
 
 
 

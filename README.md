@@ -1,6 +1,6 @@
 #bens-math-game
 
-Welcome to Ben's Math Program v3.0!
+Welcome to Ben's math program!
 
 Currently, all the basic operations (Addition, Subtraction, Multiplication, and division are included).
 

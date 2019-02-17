@@ -22,7 +22,7 @@ def functions():
         number2 = random.choice(numbers)
         print("What is F(x) + ",number1)
         answer = input("\n")
-        exit(32)
+
 
 
 
@@ -36,3 +36,4 @@ def troll(formula, x_range):
     y = eval(formula)
     plt.plot(x, y)
     plt.show()
+    exit(420)
