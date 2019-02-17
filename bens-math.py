@@ -10,7 +10,7 @@ from algebra import *
 print('Program only tested in Python3. Stability in Python2 is not guaranteed')
 input('\nPress ENTER key to acknowledge and continue...')
 clear()
-print("Welcome to Ben's Math program v2.8.2!")
+print("Welcome to Ben's Math program v2.8.5!")
 #hacker voice: "I'm in bois"
 input('\nPress ENTER key to and continue...')
 clear()
@@ -59,10 +59,13 @@ def arithmetic(type, title, numQuestions):
     score = 0
 
 #modifies the level names and number of Questions
-arithmetic('addition', 'Level 1: Addition', 1)
-arithmetic('subtraction', 'Level 2: Subtraction', 1)
-arithmetic('multiplication', 'Level 3: Multiplication', 1)
+#arithmetic('addition', 'Level 1: Addition', 1)
+#arithmetic('subtraction', 'Level 2: Subtraction', 1)
+#arithmetic('multiplication', 'Level 3: Multiplication', 1)
 division()
+time.sleep(2)
+clear()
+input("Press ENTER to advance to next level...")
 troll('x**3+2*x-4', range(-10, 11))
 
 

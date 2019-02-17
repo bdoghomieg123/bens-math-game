@@ -34,4 +34,4 @@ def division():
             else:
                 score += 0
             clear()
-    print('Your Division score is:', score, '/ 10')
+            print('Your Division score is:', score, '/ 10')
