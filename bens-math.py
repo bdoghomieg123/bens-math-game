@@ -61,10 +61,10 @@ def arithmetic(type, title, numQuestions):
     score = 0
 
 #modifies the level names and number of Questions
-#arithmetic('addition', 'Level 1: Addition', 1)
-#arithmetic('subtraction', 'Level 2: Subtraction', 1)
-#arithmetic('multiplication', 'Level 3: Multiplication', 1)
-#math('division','Level 4: Division', 1)
+arithmetic('addition', 'Level 1: Addition', 1)
+arithmetic('subtraction', 'Level 2: Subtraction', 1)
+arithmetic('multiplication', 'Level 3: Multiplication', 1)
+math('division','Level 4: Division', 1)
 time.sleep(2)
 input("Press ENTER to advance to next level...")
 clear()
