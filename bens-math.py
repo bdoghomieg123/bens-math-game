@@ -60,11 +60,15 @@ def arithmetic(type, title, numQuestions):
     score = 0
 
 #modifies the level names and number of Questions
-#arithmetic('addition', 'Level 1: Addition', 0)
-#arithmetic('subtraction', 'Level 2: Subtraction', 0)
-#arithmetic('multiplication', 'Level 3: Multiplication', 0)
+"""arithmetic('addition', 'Level 1: Addition', 0)
+arithmetic('subtraction', 'Level 2: Subtraction', 0)
+arithmetic('multiplication', 'Level 3: Multiplication', 0)
 math('division','Level 4: Division', 2)
-time.sleep(2)
 input("Press ENTER to advance to next level...")
 clear()
-print("This section is in development. Please check back later.")
+print("This section is in development. Please check back later.")"""
+print("Welcome to level 5. In this section, you will see various algebraic concepts.\n")
+print("Level 5.1 is Solving for X.\n")
+input("Press the ENTER key to continue...")
+clear()
+algebra('solveforX', 'Level 5: Algebra', 1)

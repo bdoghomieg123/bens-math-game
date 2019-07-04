@@ -1,42 +1,42 @@
 """This File is not in use at the moment. It is the sad seed of level 5 at the moment."""
 
-
 import time
 import random
 import os
 import platform
+import random as rando
 from common import *
-import numpy as np
-import matplotlib.pyplot as plt
+from sympy.solvers import solve
+from sympy import Symbol
+#solve(x**2 - 1, x)
 
+x = Symbol('x')
 
+#this is broken. Don't try to use it unless you wanna fix it. It should match the format of the other sections
 
-
-#this is broken. Don't try to use it unless you wanna fix it
-numbers = list(range(1,100))
-def functions():
-    print('Level 5: Functions Practice')
-    print('\nIn this section, plug in the given number for X in each problem')
-    time.sleep(1)
+def algebra(type, title, numQuestions):
+    numbers = list(range(1,100))
+    print('Level 5.1: Solving for X\n')
+    print("For any non-whole numbers, round to the nearest hundredth")
+    for x in range(numQuestions):
+        number1 = rando.choice(numbers)
+        number2 = rando.choice(numbers)
+        number3 = rando.choice(numbers)
+        solution = 0;
+        if type == "solveforX":
+            print("Solve for X in the following:\n")
+            print()
+            solution = round(solve(),2)
+        answer = input('\n')
+        if answer == "":
+            print('Invalid input detected...')
+            exit(420)
+        elif solution == float(answer):
+            time.sleep(1)
+            score += 1
+        else:
+            score += 0
+        time.sleep(1.5)
+        clear()
     clear()
-    score = 0
-    for x in range(1):
-        number1 = random.choice(numbers)
-        number2 = random.choice(numbers)
-        print("What is F(x) + ",number1)
-        answer = input("\n")
-
-
-
-
-def troll(formula, x_range):
-    print("Level 5 Functions Practice")
-    time.sleep(2)
-    print("Haha just joking. I don't know Alegebra\n")
-    print("enjoy this graph until i figure it out for myself")
-    time.sleep(2)
-    x = np.array(x_range)
-    y = eval(formula)
-    plt.plot(x, y)
-    plt.show()
-    exit(420)
+    print('Your division score is:', score,'/',numQuestions)
