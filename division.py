@@ -8,7 +8,8 @@ numbers = list(range(1,100))
 
 def math(type, title, numQuestions):
     print(title)
-    time.sleep(1)
+    print("For this section, Please round to the nearest HUNDREDTH\n")
+    input("Please press the ENTER key to continue...")
     clear()
     score = 0
     for x in range(numQuestions):
@@ -21,7 +22,7 @@ def math(type, title, numQuestions):
                 number1 = number2
                 number2 = switch
             print('What is', number1, 'divided by', number2, '?')
-            solution = round(number1 / number2,1)
+            solution = round(number1 / number2,2)
         answer = input('\n')
         if answer == "":
             print('Invalid input detected...')
@@ -33,9 +34,5 @@ def math(type, title, numQuestions):
             score += 0
         time.sleep(1.5)
         clear()
-        print('Your division score is:', score,'/',numQuestions)
-        
-
-
-
-#arithmetic('division','Level 4: Division', 1)
+    clear()
+    print('Your division score is:', score,'/',numQuestions)
