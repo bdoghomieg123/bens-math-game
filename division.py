@@ -1,7 +1,6 @@
 import time
 import random as rando
 import os
-import platform
 from common import *
 numbers = list(range(1,100))
 

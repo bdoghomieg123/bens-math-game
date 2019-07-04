@@ -1,7 +1,6 @@
 import time
 import random as rando
 import os
-import platform
 from division import math
 from common import *
 from algebra import *
