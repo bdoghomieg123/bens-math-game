@@ -11,7 +11,7 @@ numbers = list(range(1,100))
 print('Program only tested in Python3. Stability in Python2 is not guaranteed')
 input('\nPress ENTER key to acknowledge and continue...')
 clear()
-print("Welcome to Ben's Math program v3.1!")
+print("Welcome to Ben's Math program v3.1.2!")
 #hacker voice: "I'm in bois"
 input('\nPress ENTER key to continue...')
 clear()

@@ -14,15 +14,15 @@ If you notice any bugs/issues, fill out an issue report.
 To use program:
 
 Windows:
-- Install Python3. (Note: make sure you add Python to path during Installation or else you'll have problems running program)
+- Install Python3. (Note: make sure you add Python to path during installation. You will run into problems running program otherwise!)
 - Save to your Desktop (Or wherever you want)
 - CD to Desktop in command prompt (or directory you copied it to)
 - Type "Python bens-math.py"
 - Enjoy!
-
+- (Note: Eventually, I will create a executable file that combines everything for a one file run for Windows)
 Linux:
 - Make sure that you have Python3 installed. Program will not work as intended in Python2 due to formatting and package discrepancies
-- Right click in directory that you copied file over to.
+- Right click in directory that you copied files over to. (Note: as of now, you need all the files for it to work.)
 - Click "Open in terminal"
 - Once Terminal opens, Type "Python3 bens-math.py"
 - Enjoy!!
