@@ -34,9 +34,12 @@ def algebra(type, title, numQuestions):
         elif solution == float(answer):
             time.sleep(1)
             score += 1
+        elif solution == int(answer):
+            time.sleep(1)
+            score += 1
         else:
             score += 0
         time.sleep(1.5)
         clear()
     clear()
-    print('Your division score is:', score,'/',numQuestions)
+    print('Your current score is:', score,'/',numQuestions)
