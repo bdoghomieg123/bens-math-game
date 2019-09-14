@@ -3,7 +3,6 @@ import random as rando
 import os
 from division import math
 from common import *
-from algebra import *
 
 numbers = list(range(1,100))
 
@@ -60,15 +59,9 @@ def arithmetic(type, title, numQuestions):
     score = 0
 
 #modifies the level names and number of Questions
-"""arithmetic('addition', 'Level 1: Addition', 0)
-arithmetic('subtraction', 'Level 2: Subtraction', 0)
-arithmetic('multiplication', 'Level 3: Multiplication', 0)
-math('division','Level 4: Division', 2)
+arithmetic('addition', 'Level 1: Addition', 1)
+arithmetic('subtraction', 'Level 2: Subtraction', 1)
+arithmetic('multiplication', 'Level 3: Multiplication', 1)
+math('division','Level 4: Division', 1)
 input("Press ENTER to advance to next level...")
 clear()
-print("This section is in development. Please check back later.")"""
-print("Welcome to level 5. In this section, you will see various algebraic concepts.\n")
-print("Level 5.1 is Solving for X.\n")
-input("Press the ENTER key to continue...")
-clear()
-algebra('solveforX', 'Level 5: Algebra', 1)
