@@ -1,4 +1,4 @@
-#bens-math-game
+# Bens-math-game
 
 Welcome to Ben's math program!
 
