@@ -12,7 +12,7 @@ numbers = list(range(1,10))
 print('Program only tested in Python3. Stability in Python2 is not guaranteed')
 input('\nPress ENTER key to acknowledge and continue...')
 clear()
-print("Welcome to Ben's Math program v3.1.2!")
+print("Welcome to Ben's Math program Beta v3.3.1!")
 #hacker voice: "I'm in bois"
 input('\nPress ENTER key to continue...')
 clear()

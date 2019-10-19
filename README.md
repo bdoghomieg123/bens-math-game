@@ -1,6 +1,6 @@
 # Bens-math-game
 
-Welcome to Ben's math program!
+Welcome to Ben's math program betas!
 
 Currently, all the basic operations (Addition, Subtraction, Multiplication, and division are included).
 
@@ -9,6 +9,7 @@ The division section sometimes is slightly broken. Fill out issue report if you 
 Algebra concepts expected to come in v5.0.
 
 If you notice any bugs/issues, fill out an issue report.
+
 
 
 To use program:
