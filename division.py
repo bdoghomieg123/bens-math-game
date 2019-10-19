@@ -2,10 +2,10 @@ import time
 import random as rando
 import os
 from common import *
-numbers = list(range(1,100))
 
 
 def math(type, title, numQuestions):
+    numbers = list(range(1,10))
     print(title)
     print("For this section, Please round to the nearest HUNDREDTH\n")
     input("Please press the ENTER key to continue...")
@@ -27,9 +27,13 @@ def math(type, title, numQuestions):
             print('Invalid input detected...')
             exit(420)
         elif solution == float(answer):
+            print("Correct!\n")
             time.sleep(1)
             score += 1
-        else:
+        elif solution != float(answer):
+            print("Sorry. That is incorrect\n")
+            input("Press ENTER key to continue.\n")
+            clear()
             score += 0
         time.sleep(1.5)
         clear()

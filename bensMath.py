@@ -4,7 +4,9 @@ import os
 from division import math
 from common import *
 
-numbers = list(range(1,100))
+
+numbers = list(range(1,10))
+
 
 #Main Menu
 print('Program only tested in Python3. Stability in Python2 is not guaranteed')
@@ -29,7 +31,7 @@ def arithmetic(type, title, numQuestions):
         if type == "addition" :
             print('What is', number1, '+', number2, '?')
             solution = number1 + number2;
-        elif type == "subtraction" :
+        elif type == "subtraction":
             if number1 < number2:
                 switch = number2
                 number1 = number2
@@ -43,12 +45,20 @@ def arithmetic(type, title, numQuestions):
 
         answer = input('\n')
         if answer == "":
+            clear()
             print('Invalid input detected...')
-            exit(12)
+            exit(123)
         elif solution == int(answer):
-            time.sleep(1)
+            clear()
+            print("Correct Answer!\n")
+            input("Press ENTER key to continue...\n")
             score += 1
-        else:
+            clear()
+        elif solution != int(answer):
+            clear()
+            print("Sorry. That is incorrect.")
+            input("Press ENTER key to continue")
+            clear()
             score += 0
         time.sleep(1.5)
         clear()
@@ -58,10 +68,11 @@ def arithmetic(type, title, numQuestions):
     clear()
     score = 0
 
+
 #modifies the level names and number of Questions
-arithmetic('addition', 'Level 1: Addition', 1)
-arithmetic('subtraction', 'Level 2: Subtraction', 1)
-arithmetic('multiplication', 'Level 3: Multiplication', 1)
+arithmetic('addition', 'Level 1: Addition', 2)
+arithmetic('subtraction', 'Level 2: Subtraction', 0)
+arithmetic('multiplication', 'Level 3: Multiplication', 0)
 math('division','Level 4: Division', 1)
 input("Press ENTER to advance to next level...")
 clear()
