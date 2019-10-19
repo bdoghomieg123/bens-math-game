@@ -1,6 +1,4 @@
-# Bens-math-game
-
-Welcome to Ben's math program betas!
+# Welcome to Ben's math program beta!
 
 Currently, all the basic operations (Addition, Subtraction, Multiplication, and division are included).
 
